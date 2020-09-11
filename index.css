@@ -1,44 +1,90 @@
-body {
-	background-color: #151515;
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+@keyframes fadein 
+{
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
-p {
-	color: #ffffff;
-	font-family: "Roboto";
-	font-weight: lighter;
-	text-align: center;
+body 
+{
+	opacity: 1;
+	background-color: rgb(21, 21, 21);
+	animation: fadein 2.5s;
 }
 
-h1 {
-	color: #ffffff;
-	font-family: "Roboto";
-	text-align: center;
-	margin-top: 80px;
-}
 
-a {
-	color: #ffffff;
-	font-family: "Roboto";
-	text-decoration: none;
-}
-
-img {
-	width: 60px;
-	height: 60px;
-	margin-top: auto;
+.main, .top
+{
 	margin: 10px;
+	background-color: rgb(21, 21, 21);
+	border-style: solid;
+	border-color: rgb(40, 40, 40);
+	border-radius: 10px;
+	border-width: 2px;
 }
 
-.main {
-	width: auto;
-	height: auto;
-	position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50.2%);
-    text-align: center;
+.main, .top
+{
+	size: 50px;
+	background-color: rgb(21, 21, 21);
+	border-style: solid;
+	border-color: rgb(40, 40, 40);
+	border-radius: 10px;
+	border-width: 2px;
 }
 
-::placeholder {
-	color: #909090;
+.main
+{
+	text-align: center;
+}
+
+.top
+{
+	word-spacing: 50px;
+	font-size: 30px;
+	text-align: center;
+}
+
+p, a, h1, li
+{
+	color: rgb(230, 230, 230);
+	font-family: 'Epilogue', sans-serif;
+}
+
+li
+{
+	color: rgb(130, 130, 130);
+	font-size: 12px;
+}
+
+a
+{
+	font-weight: 400;
+	text-decoration: none;
+	align-items: center;
+}
+
+a:hover
+{
+	font-weight: bold;
+}
+
+img 
+{
+	margin: 10px;
+	height: 50px;
+	width: 50px;
+	transition: background 2s;
+}
+
+img:hover 
+{
+	background: url(images/hover.png);
+	background-size: 50px 50px;
+}
+
+::selection
+{
+	background: rgb(230, 230, 230);
 }
