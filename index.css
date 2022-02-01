@@ -34,10 +34,10 @@ body::-webkit-scrollbar-thumb {
 	-ms-user-select: none;
 	user-select: none;
 
-	-moz-transition: all .1s ease-out;
-	-o-transition: all .1s ease-out;
-	-webkit-transition: all .1s ease-out;
-	transition: all .1s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
+	transition: all .3s ease-out;
 	
 	margin: 20px;
 	text-align: center;
@@ -48,10 +48,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 #link {
-	-moz-transition: all .1s ease-out;
-	-o-transition: all .1s ease-out;
-	-webkit-transition: all .1s ease-out;
-	transition: all .1s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
+	transition: all .3s ease-out;
 
 	color: var(--text-color);
 	font-family: "Nunito";
@@ -67,10 +67,10 @@ body::-webkit-scrollbar-thumb {
 
 #middle {
 	display: grid;
-	-moz-transition: all .1s ease-out;
-	-o-transition: all .1s ease-out;
-	-webkit-transition: all .1s ease-out;
-	transition: all .1s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
+	transition: all .3s ease-out;
 
 	padding: 10px;
 	text-align: center;
@@ -92,10 +92,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 #text1 {
-	-moz-transition: all .1s ease-out;
-	-o-transition: all .1s ease-out;
-	-webkit-transition: all .1s ease-out;
-	transition: all .1s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
+	transition: all .3s ease-out;
 
 	color: var(--text-color);
 	font-family: "Nunito";
@@ -113,10 +113,10 @@ body::-webkit-scrollbar-thumb {
 	cursor: pointer;
 	margin: 20px;
 	padding: 15px;
-	-moz-transition: all .1s ease-out;
-	-o-transition: all .1s ease-out;
-	-webkit-transition: all .1s ease-out;
-	transition: all .1s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
+	transition: all .3s ease-out;
 
 	text-align: center;
 	background-color: var(--bg-color);
@@ -124,10 +124,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 #script img{
-	-moz-transition: all .1s ease-out;
-	-o-transition: all .1s ease-out;
-	-webkit-transition: all .1s ease-out;
-	transition: all .1s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
+	transition: all .3s ease-out;
 
 	outline: solid 1px var(--accent-color);
 }
