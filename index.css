@@ -1,90 +1,145 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
-@keyframes fadein 
+/* Main */
+
+:root 
 {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	--text-color: #e1e1e1;
+	--accent-color: #9d7cff;
+	--bg-color: black;
 }
 
-body 
-{
-	opacity: 1;
-	background-color: rgb(21, 21, 21);
-	animation: fadein 2.5s;
+html, body {
+	color: var(--bg-color);
+	background-color: var(--bg-color);
 }
 
+/* Scrollbar */
 
-.main, .top
-{
-	margin: 10px;
-	background-color: rgb(21, 21, 21);
-	border-style: solid;
-	border-color: rgb(40, 40, 40);
-	border-radius: 10px;
-	border-width: 2px;
+body::-webkit-scrollbar {
+	width: 5px;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--accent-color);
 }
 
-.main, .top
-{
-	size: 50px;
-	background-color: rgb(21, 21, 21);
-	border-style: solid;
-	border-color: rgb(40, 40, 40);
-	border-radius: 10px;
-	border-width: 2px;
-}
+/* Top */
 
-.main
-{
+#top {
+	-webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+	-moz-transition: all .1s ease-out;
+  -o-transition: all .1s ease-out;
+  -webkit-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+
+	margin: 20px;
 	text-align: center;
-}
-
-.top
-{
-	word-spacing: 50px;
-	font-size: 30px;
-	text-align: center;
-}
-
-p, a, h1, li
-{
-	color: rgb(230, 230, 230);
-	font-family: 'Epilogue', sans-serif;
-}
-
-li
-{
-	color: rgb(130, 130, 130);
-	font-size: 12px;
-}
-
-a
-{
-	font-weight: 400;
-	text-decoration: none;
-	align-items: center;
-}
-
-a:hover
-{
+	background-color: var(--bg-color);
+	outline: solid 1px var(--accent-color);
+	word-spacing: 10px;
 	font-weight: bold;
 }
 
-img 
-{
-	margin: 10px;
-	height: 50px;
-	width: 50px;
-	transition: background 2s;
+#link {
+	-moz-transition: all .1s ease-out;
+  -o-transition: all .1s ease-out;
+  -webkit-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+
+	color: var(--text-color);
+	font-family: "Nunito";
+	font-size: 48px;
+	text-decoration: none;
 }
 
-img:hover 
-{
-	background: url(images/hover.png);
-	background-size: 50px 50px;
+#link:hover {
+	color: var(--accent-color);
 }
 
-::selection
-{
-	background: rgb(230, 230, 230);
+/* Middle */
+
+#middle {
+	display: grid;
+	-moz-transition: all .1s ease-out;
+  -o-transition: all .1s ease-out;
+  -webkit-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+
+	padding: 10px;
+	text-align: center;
+	background-color: var(--bg-color);
+}
+
+#text::selection {
+	background-color: var(--accent-color);
+}
+
+#text::moz-seletion {
+	background-color: var(--accent-color);
+}
+
+#text {
+	color: var(--text-color);
+	font-family: "Nunito";
+	font-size: 32px;
+}
+
+#text1 {
+	-moz-transition: all .1s ease-out;
+  -o-transition: all .1s ease-out;
+  -webkit-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+
+	color: var(--text-color);
+	font-family: "Nunito";
+	font-size: 32px;
+	text-decoration: none;
+}
+
+#script {
+	-webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+	cursor: pointer;
+	margin: 20px;
+	padding: 15px;
+	-moz-transition: all .1s ease-out;
+  -o-transition: all .1s ease-out;
+  -webkit-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+
+	text-align: center;
+	background-color: var(--bg-color);
+	outline: solid 1px var(--accent-color);
+}
+
+#script img{
+	-moz-transition: all .1s ease-out;
+  -o-transition: all .1s ease-out;
+  -webkit-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+
+	outline: solid 1px var(--accent-color);
+}
+
+#script:hover {
+	outline: solid 3px var(--accent-color);
+}
+
+#script:hover p{
+	color: var(--accent-color);
+}
+
+#script:hover img{
+	outline: solid 3px var(--accent-color);
 }

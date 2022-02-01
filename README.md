@@ -1,2 +1,0 @@
-# speedhacking.github.io
-😎😎😎
