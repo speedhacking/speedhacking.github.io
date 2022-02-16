@@ -10,6 +10,11 @@
 }
 
 html, body {
+	-moz-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	-webkit-transition: all .1s ease-out;
+	transition: all .1s ease-out;
+
 	color: var(--bg-color);
 	background-color: var(--bg-color);
 }
@@ -66,14 +71,15 @@ body::-webkit-scrollbar-thumb {
 /* Middle */
 
 #middle {
-	display: grid;
+	display: flex;
+	flex-flow: wrap;
 	-moz-transition: all .1s ease-out;
 	-o-transition: all .1s ease-out;
 	-webkit-transition: all .1s ease-out;
 	transition: all .1s ease-out;
-
+	align-self: center;
+	align-content: center;
 	padding: 10px;
-	text-align: center;
 	background-color: var(--bg-color);
 }
 
@@ -111,13 +117,16 @@ body::-webkit-scrollbar-thumb {
 	-ms-user-select: none;
 	user-select: none;
 	cursor: pointer;
-	margin: 20px;
-	padding: 15px;
+	margin: 15px;
+	padding: 20px;
+	width: 46.2754421%;
 	-moz-transition: all .1s ease-out;
 	-o-transition: all .1s ease-out;
 	-webkit-transition: all .1s ease-out;
 	transition: all .1s ease-out;
 
+
+	align-itemsg: center;
 	text-align: center;
 	background-color: var(--bg-color);
 	outline: solid 1px var(--accent-color);
