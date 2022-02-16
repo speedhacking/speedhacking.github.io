@@ -39,19 +39,11 @@ body::-webkit-scrollbar-thumb {
 	-ms-user-select: none;
 	user-select: none;
 
-<<<<<<< Updated upstream
 	-moz-transition: all .1s ease-out;
 	-o-transition: all .1s ease-out;
 	-webkit-transition: all .1s ease-out;
-	transition: all .1s ease-out;
-	
-=======
-	-moz-transition: all .3s ease-out;
-  -o-transition: all .3s ease-out;
-  -webkit-transition: all .3s ease-out;
-  transition: all .3s ease-out;
+	transition: all .1s ease-out;t;
 
->>>>>>> Stashed changes
 	margin: 20px;
 	text-align: center;
 	background-color: var(--bg-color);
@@ -61,17 +53,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 #link {
-<<<<<<< Updated upstream
 	-moz-transition: all .1s ease-out;
 	-o-transition: all .1s ease-out;
 	-webkit-transition: all .1s ease-out;
 	transition: all .1s ease-out;
-=======
-	-moz-transition: all .3s ease-out;
-  -o-transition: all .3s ease-out;
-  -webkit-transition: all .3s ease-out;
-  transition: all .3s ease-out;
->>>>>>> Stashed changes
 
 	color: var(--text-color);
 	font-family: "Nunito";
@@ -86,7 +71,6 @@ body::-webkit-scrollbar-thumb {
 /* Middle */
 
 #middle {
-<<<<<<< Updated upstream
 	display: flex;
 	flex-flow: wrap;
 	-moz-transition: all .1s ease-out;
@@ -95,14 +79,7 @@ body::-webkit-scrollbar-thumb {
 	transition: all .1s ease-out;
 	align-self: center;
 	align-content: center;
-=======
-	display: grid;
-	-moz-transition: all .3s ease-out;
-  -o-transition: all .3s ease-out;
-  -webkit-transition: all .3s ease-out;
-  transition: all .3s ease-out;
 
->>>>>>> Stashed changes
 	padding: 10px;
 	background-color: var(--bg-color);
 }
@@ -122,17 +99,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 #text1 {
-<<<<<<< Updated upstream
 	-moz-transition: all .1s ease-out;
 	-o-transition: all .1s ease-out;
 	-webkit-transition: all .1s ease-out;
 	transition: all .1s ease-out;
-=======
-	-moz-transition: all .3s ease-out;
-  -o-transition: all .3s ease-out;
-  -webkit-transition: all .3s ease-out;
-  transition: all .3s ease-out;
->>>>>>> Stashed changes
 
 	color: var(--text-color);
 	font-family: "Nunito";
@@ -148,7 +118,7 @@ body::-webkit-scrollbar-thumb {
 	-ms-user-select: none;
 	user-select: none;
 	cursor: pointer;
-<<<<<<< Updated upstream
+
 	margin: 15px;
 	padding: 20px;
 	width: 46.2754421%;
@@ -156,15 +126,6 @@ body::-webkit-scrollbar-thumb {
 	-o-transition: all .1s ease-out;
 	-webkit-transition: all .1s ease-out;
 	transition: all .1s ease-out;
-=======
-	margin: 20px;
-	padding: 15px;
-	-moz-transition: all .3s ease-out;
-  -o-transition: all .3s ease-out;
-  -webkit-transition: all .3s ease-out;
-  transition: all .3s ease-out;
->>>>>>> Stashed changes
-
 
 	align-itemsg: center;
 	text-align: center;
@@ -173,17 +134,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 #script img{
-<<<<<<< Updated upstream
 	-moz-transition: all .1s ease-out;
 	-o-transition: all .1s ease-out;
 	-webkit-transition: all .1s ease-out;
 	transition: all .1s ease-out;
-=======
-	-moz-transition: all .3s ease-out;
-  -o-transition: all .3s ease-out;
-  -webkit-transition: all .3s ease-out;
-  transition: all .3s ease-out;
->>>>>>> Stashed changes
 
 	outline: solid 1px var(--accent-color);
 }
